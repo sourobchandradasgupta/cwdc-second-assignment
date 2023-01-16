@@ -360,6 +360,59 @@ ul {
     mix-blend-mode: luminosity;
 }
 
+/*------------------------------
+         Contact Section
+------------------------------ */
+
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #85848481;
+    padding: 130px 200px;
+    margin-top: 150px;
+}
+
+.contact-container{
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+}
+.contact .contact-title {
+    text-align: left;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.contact .feedback {
+    font-size: 25px;
+
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact .all-contact {
+    align-content: left;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
 
 
 /* ---------------------------
