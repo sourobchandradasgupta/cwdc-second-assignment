@@ -149,11 +149,6 @@ ul {
     padding-bottom: 30px;
 }
 
-.features .feature-title-section .btn-primary {}
-
-
-
-
 
 /* -----------------------------
             Features End- 
@@ -402,9 +397,6 @@ textarea {
     align-content: left;
 }
 
-.hide {
-    display: none;
-}
 
 
 
@@ -424,7 +416,7 @@ textarea {
     background: #FFF4E7;
     border-radius: 8px;
     text-align: center;
-    margin: 100px 370px 100px;
+    margin: 50px 370px 30px;
 }
 
 .footer .copyright {
@@ -433,5 +425,231 @@ textarea {
     text-align: center;
     color: #424242;
     padding: 15px;
+
+}
+
+
+
+
+/*----------------------------------
+           responsive section 
+------------------------------------*/
+
+@media screen and (max-width:576px){
+
+
+    /* header start */
+
+    .header .architects-header {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 60px 102px;
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 25px;
+        font-size: 18px;
+        color: #424242;
+        padding-top: 30px;
+    
+    }
+
+    .architects-header {
+        align-items: left;
+        text-align: left;
+    }
+
+    .header .architects-header .nav-title {
+        font-size: 35px;
+        font-weight: 600;
+        color: #131313;
+    }
+
+    /* header end */
+
+
+/* -------------------------------
+              Banner section start
+--------------------------------*/
+
+.header .banner .banner-title-section {
+    margin: 0 30px 50px;
+    text-align: center;
+}
+
+.header .banner .banner-image {
+    padding: 0 30px 45px;
+    width: 80%;
+    height: 50%;
+    align-items: center;
+}
+
+
+/* -------------------------------
+              Banner section end
+--------------------------------*/
+
+/*-----------------------------------
+            Features Starts 
+-------------------------------------*/
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 85px 60px 130px;
+
+}
+
+.features .feature-image {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.feature-image-size {
+    width: 300px;
+    height: 300px;
+}
+
+/*-----------------------------------
+            Features ends 
+-------------------------------------*/
+
+
+/*----------------------------------
+     Love & Enjoy Starts 
+------------------------------------*/
+
+.features-love {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 30px;
+}
+
+
+
+
+.features-love .architect {
+    width: 350px;
+    height: 500px;
+    padding-left: 5px;
+}
+
+/*----------------------------------
+     Love & Enjoy ends 
+------------------------------------*/
+
+/*-------------------------
+     some-facts starts
+---------------------------*/
+
+.some-facts {
+    margin: 20px 30px 50px;
+}
+
+.some-facts .facts-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+}
+
+
+/*-------------------------
+     some-facts Ends
+---------------------------*/
+
+
+/* ------------------------
+         sponors starts
+--------------------------- */
+
+.sponsors {
+    margin: 0 30px 50px;
+}
+
+
+.sponsors .sponsors-description {
+  
+    padding: 0 10px 100px;
+}
+
+
+.sponsors .sponsors-image {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 60px;
+    text-align: center;
+
+}
+
+/* ------------------------
+         sponors ends
+--------------------------- */
+
+
+
+
+/*------------------------------
+         Contact Section starts
+------------------------------ */
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background: #85848481;
+    padding: 130px 10px;
+    margin-top: 150px;
+}
+
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 80%;
+    padding: 18px 30px;
+}
+
+/*------------------------------
+         Contact Section ends
+------------------------------ */
+
+
+
+
+/* ---------------------------
+             footer stars
+------------------------------ */
+.footer {
+
+    width: 80%;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    margin: 50px 40px 30px;
+}
+
+.footer .copyright {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding: 15px;
+
+}
+
+
+
+/* ---------------------------
+             footer end
+------------------------------ */
 
 }
